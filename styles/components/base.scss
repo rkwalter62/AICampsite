@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Ubuntu-Regular;
+}
+
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1682686580922-2e594f8bdaa7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyNjI5NjF8MXwxfHNlYXJjaHwxfHxjYW1waW5nfGVufDB8fHx8MTY4MzEzNjYxNQ&ixlib=rb-4.0.3&q=80&w=1080");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #9ca3af;
+}
+
+.nofieldset .MuiInputBase-root fieldset {
+  display: none !important;
+}
